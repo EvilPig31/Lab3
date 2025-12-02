@@ -7,3 +7,9 @@ double calculateTotalArea(const std::vector<std::unique_ptr<Figure>> &figures){
     }
     return total;
 }
+
+void removeFigureByIndex(std::vector<std::unique_ptr<Figure>>& figures, size_t index){
+    if (index < figures.size()) {
+        figures.erase(figures.begin() + index);
+    }
+}

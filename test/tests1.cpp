@@ -72,6 +72,8 @@ TEST(test_11, TotalArea){
     figures.push_back(std::make_unique<Pentagon>(1.0, 0, 0));
     double total = 9.0 + 10.0 + area;
     EXPECT_NEAR(calculateTotalArea(figures), total, 1e-10);
+    removeFigureByIndex(figures, 1);
+    EXPECT_NEAR(calculateTotalArea(figures), total - 10.0, 1e-10);
 }
 TEST(test_12, TrapezoidCopy){
     Trapezoid t1(4, 2, 3, 1, 1);
