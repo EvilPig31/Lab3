@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLabs_libT.a CMakeFiles/Labs_libT.dir/src/Trapezoid.cpp.o
+/usr/bin/ranlib libLabs_libT.a

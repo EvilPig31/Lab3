@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLabs_libP.a CMakeFiles/Labs_libP.dir/src/Pentagon.cpp.o
+/usr/bin/ranlib libLabs_libP.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLabs_libTA.a CMakeFiles/Labs_libTA.dir/src/TotalArea.cpp.o
+/usr/bin/ranlib libLabs_libTA.a
