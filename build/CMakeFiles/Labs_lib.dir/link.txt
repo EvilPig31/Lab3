@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLabs_lib.a CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o
+/usr/bin/ar qc libLabs_lib.a CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o
 /usr/bin/ranlib libLabs_lib.a

@@ -97,19 +97,19 @@ CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.s"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Lab3/src/Pentagon.cpp -o CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.s
 
-CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o: CMakeFiles/Labs_lib.dir/flags.make
-CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o: /workspaces/Lab3/src/TotalArea.cpp
-CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o: CMakeFiles/Labs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o -MF CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o.d -o CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o -c /workspaces/Lab3/src/TotalArea.cpp
+CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o: CMakeFiles/Labs_lib.dir/flags.make
+CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o: /workspaces/Lab3/src/FigureArray.cpp
+CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o: CMakeFiles/Labs_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o -MF CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o.d -o CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o -c /workspaces/Lab3/src/FigureArray.cpp
 
-CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Lab3/src/TotalArea.cpp > CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.i
+CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Lab3/src/FigureArray.cpp > CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.i
 
-CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Lab3/src/TotalArea.cpp -o CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.s
+CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Lab3/src/FigureArray.cpp -o CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.s
 
 CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o: CMakeFiles/Labs_lib.dir/flags.make
 CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o: /workspaces/Lab3/src/Trapezoid.cpp
@@ -129,7 +129,7 @@ CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.s: cmake_force
 Labs_lib_OBJECTS = \
 "CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o" \
 "CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o" \
-"CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o" \
+"CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o" \
 "CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o"
 
 # External object files for target Labs_lib
@@ -137,7 +137,7 @@ Labs_lib_EXTERNAL_OBJECTS =
 
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o
-libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o
+libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/build.make
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/link.txt

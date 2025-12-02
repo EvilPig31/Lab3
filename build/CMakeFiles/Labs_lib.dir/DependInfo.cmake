@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/workspaces/Lab3/src/FigureArray.cpp" "CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o.d"
   "/workspaces/Lab3/src/Pentagon.cpp" "CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/Pentagon.cpp.o.d"
   "/workspaces/Lab3/src/Rhombus.cpp" "CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.o.d"
-  "/workspaces/Lab3/src/TotalArea.cpp" "CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o.d"
   "/workspaces/Lab3/src/Trapezoid.cpp" "CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/Trapezoid.cpp.o.d"
   )
 

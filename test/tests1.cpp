@@ -1,7 +1,7 @@
 #include "../include/Rhombus.h"
 #include "../include/Trapezoid.h"
 #include "../include/Pentagon.h"
-#include "../include/TotalArea.h"
+#include "../include/FigureArray.h"
 #include <gtest/gtest.h>
 
 TEST(test_1, TrapezoidConstGet){
@@ -61,19 +61,19 @@ TEST(test_9, PentagonEq){
     EXPECT_FALSE(p1.operator== (p2));
 }
 TEST(test_10, EmptyTotalArea){
-    std::vector<std::unique_ptr<Figure>> figures;
-    EXPECT_DOUBLE_EQ(calculateTotalArea(figures), 0.0);
+    FigureArray figureArray;
+    EXPECT_DOUBLE_EQ(figureArray.calculateTotalArea(), 0.0);
 }
 TEST(test_11, TotalArea){
-    std::vector<std::unique_ptr<Figure>> figures;
-    figures.push_back(std::make_unique<Trapezoid>(4, 2, 3, 0, 0));
-    figures.push_back(std::make_unique<Rhombus>(4, 5, 0, 0));
+    FigureArray figureArray;
+    figureArray.addFigure(std::make_unique<Trapezoid>(4, 2, 3, 0, 0));
+    figureArray.addFigure(std::make_unique<Rhombus>(4, 5, 0, 0));
     double area = (5.0 * 1.0) / (4.0 * tan(M_PI / 5.0));
-    figures.push_back(std::make_unique<Pentagon>(1.0, 0, 0));
+    figureArray.addFigure(std::make_unique<Pentagon>(1.0, 0, 0));
     double total = 9.0 + 10.0 + area;
-    EXPECT_NEAR(calculateTotalArea(figures), total, 1e-10);
-    removeFigureByIndex(figures, 1);
-    EXPECT_NEAR(calculateTotalArea(figures), total - 10.0, 1e-10);
+    EXPECT_NEAR(figureArray.calculateTotalArea(), total, 1e-10);
+    figureArray.removeFigure(1);
+    EXPECT_NEAR(figureArray.calculateTotalArea(), total - 10.0, 1e-10);
 }
 TEST(test_12, TrapezoidCopy){
     Trapezoid t1(4, 2, 3, 1, 1);

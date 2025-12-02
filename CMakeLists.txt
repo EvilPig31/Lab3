@@ -19,7 +19,7 @@ FetchContent_MakeAvailable(googletest)
 add_library(${CMAKE_PROJECT_NAME}_lib
   src/Rhombus.cpp
   src/Pentagon.cpp
-  src//TotalArea.cpp
+  src//FigureArray.cpp
   src/Trapezoid.cpp
 )
 

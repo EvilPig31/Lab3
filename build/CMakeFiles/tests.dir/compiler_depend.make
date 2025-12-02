@@ -232,7 +232,10 @@ CMakeFiles/tests.dir/test/tests1.cpp.o: /workspaces/Lab3/test/tests1.cpp \
   /usr/local/include/c++/14.2.0/tr1/poly_hermite.tcc \
   /usr/local/include/c++/14.2.0/tr1/poly_laguerre.tcc \
   /usr/local/include/c++/14.2.0/tr1/riemann_zeta.tcc \
-  /workspaces/Lab3/include/TotalArea.h \
+  /workspaces/Lab3/include/FigureArray.h \
+  /workspaces/Lab3/include/Trapezoid.h \
+  /workspaces/Lab3/include/Rhombus.h \
+  /workspaces/Lab3/include/Pentagon.h \
   /usr/local/include/c++/14.2.0/memory \
   /usr/local/include/c++/14.2.0/bits/stl_tempbuf.h \
   /usr/local/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
@@ -700,6 +703,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/workspaces/Lab3/include/FigureArray.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/local/include/c++/14.2.0/bits/stringfwd.h:
@@ -809,8 +814,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/local/include/c++/14.2.0/debug/assertions.h:
-
-/workspaces/Lab3/include/TotalArea.h:
 
 /usr/local/include/c++/14.2.0/ratio:
 

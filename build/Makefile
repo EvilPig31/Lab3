@@ -286,6 +286,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_exe.dir/build.make CMakeFiles/Labs_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/FigureArray.o: src/FigureArray.cpp.o
+.PHONY : src/FigureArray.o
+
+# target to build an object file
+src/FigureArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.o
+.PHONY : src/FigureArray.cpp.o
+
+src/FigureArray.i: src/FigureArray.cpp.i
+.PHONY : src/FigureArray.i
+
+# target to preprocess a source file
+src/FigureArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.i
+.PHONY : src/FigureArray.cpp.i
+
+src/FigureArray.s: src/FigureArray.cpp.s
+.PHONY : src/FigureArray.s
+
+# target to generate assembly for a file
+src/FigureArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/FigureArray.cpp.s
+.PHONY : src/FigureArray.cpp.s
+
 src/Pentagon.o: src/Pentagon.cpp.o
 .PHONY : src/Pentagon.o
 
@@ -333,30 +357,6 @@ src/Rhombus.s: src/Rhombus.cpp.s
 src/Rhombus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/Rhombus.cpp.s
 .PHONY : src/Rhombus.cpp.s
-
-src/TotalArea.o: src/TotalArea.cpp.o
-.PHONY : src/TotalArea.o
-
-# target to build an object file
-src/TotalArea.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.o
-.PHONY : src/TotalArea.cpp.o
-
-src/TotalArea.i: src/TotalArea.cpp.i
-.PHONY : src/TotalArea.i
-
-# target to preprocess a source file
-src/TotalArea.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.i
-.PHONY : src/TotalArea.cpp.i
-
-src/TotalArea.s: src/TotalArea.cpp.s
-.PHONY : src/TotalArea.s
-
-# target to generate assembly for a file
-src/TotalArea.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labs_lib.dir/build.make CMakeFiles/Labs_lib.dir/src/TotalArea.cpp.s
-.PHONY : src/TotalArea.cpp.s
 
 src/Trapezoid.o: src/Trapezoid.cpp.o
 .PHONY : src/Trapezoid.o
@@ -429,15 +429,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/FigureArray.o"
+	@echo "... src/FigureArray.i"
+	@echo "... src/FigureArray.s"
 	@echo "... src/Pentagon.o"
 	@echo "... src/Pentagon.i"
 	@echo "... src/Pentagon.s"
 	@echo "... src/Rhombus.o"
 	@echo "... src/Rhombus.i"
 	@echo "... src/Rhombus.s"
-	@echo "... src/TotalArea.o"
-	@echo "... src/TotalArea.i"
-	@echo "... src/TotalArea.s"
 	@echo "... src/Trapezoid.o"
 	@echo "... src/Trapezoid.i"
 	@echo "... src/Trapezoid.s"
